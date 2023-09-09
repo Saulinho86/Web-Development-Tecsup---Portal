@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desarrollo Web I Tecsup I CodiGo</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#">
+        <img src="https://www.tecsup.edu.pe/themes/tecsup/logo.svg" alt="Tecsup" height="32" />
+      </a>
+      <ul>
+        <li>
+          <a href="#">Teams</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/elliotgaramendi/" target="_blank" rel="noopener noreferrer">Elliot</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="https://www.youtube.com/@elliotgaramendi" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-youtube"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/elliotgaramendi" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/elliotgaramendi/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/elliotgaramendi/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <div>
+        <div>
+          <h1>Desarrollo Web I Tecsup I CodiGo</h1>
+          <h2>Las mejores páginas web del Perú</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam sed dicta aut praesentium dolore maiores
+            fugit tempora, enim itaque sit minus doloremque nobis ipsam odio numquam tenetur ipsum magni eveniet?
+          </p>
+          <div>
+            <a href="https://codigo.edu.pe/" target="_blank" rel="noopener noreferrer">CodiGo</a>
+            <a href="#">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+</body>
+
+</html>
