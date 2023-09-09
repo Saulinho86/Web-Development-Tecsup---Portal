@@ -46,3 +46,12 @@
     padding-left: calc(var(--element-spacing));
     margin: 0 auto;
 }
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox--centered-sides {
+    align-items: center;
+    justify-content: space-between;
+}
