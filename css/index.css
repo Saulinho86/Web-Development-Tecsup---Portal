@@ -18,7 +18,31 @@
 
 .body {
     margin: 0;
-    background-color: #16181d;
-    color: #f7f8f9;
-    font-family: 'Source Code Pro', monospace;
+    background-color: var(--primary-background-color);
+    color: var(var(--primary-tex-color));
+    font-size: var(--element-size);
+    font-family: var(--primary-font-family);
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--light-primary-shadow-color);
+    box-shadow: 0 0 calc(var(--element-size)*0.25) calc(var(--element-size) * 0.125);
+}
+
+.nav {
+    padding-top: calc(var(--element-spacing) * 0.5);
+    padding-bottom: calc(var(--element-spacing) * 0.5);
+}
+
+.container {
+    max-width: var(--max-width);
+    background-color: rgba(255, 0, 0, 0.5);
+    padding-right: calc(var(--element-spacing));
+    padding-left: calc(var(--element-spacing));
+    margin: 0 auto;
 }
